@@ -1,0 +1,3 @@
+DirectoryIndex webapp.cgi .ht
+RewriteEngine on
+RewriteRule ^/([^/]+).cgi/(.*)\.([0-9a-zA-Z]+)$ /static/$2.$3 [L]
